@@ -34,7 +34,7 @@
     },
     "scripts": {
         "stan": "vendor/bin/phpstan analyse src",
-        "compat": "vendor/bin/phpcs -p src --standard=PHPCompatibility --runtime-set testVersion 8.4"
+        "compat": "vendor/bin/phpcs -p -s src --standard=PHPCompatibility --runtime-set testVersion 8.4"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
